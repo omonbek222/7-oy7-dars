@@ -1,9 +1,16 @@
+import React from 'react';
+import Hero from './components/Showcase';
+import Card from './components/Card'; // ✅ katta harf bilan
+import Navbar from './components/Header';
+
 function App() {
   return (
     <div>
-    <h1 className="text-2xl text-blue-500">omon</h1>
+      <Navbar />
+      <Hero />
+      <Card />
     </div>
   );
 }
 
-export default App; 
+export default App;
