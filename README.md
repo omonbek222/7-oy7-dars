@@ -13,3 +13,4 @@ If you are developing a production application, we recommend using TypeScript wi
 # 7-oy7-dars
 # 7-oy-7-dars-maket
 # 7-oy-7-dars-maket
+# 7-maket-site
