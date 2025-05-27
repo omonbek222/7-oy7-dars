@@ -10,15 +10,15 @@ function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-4">
           <img src={Logo} alt="Logo" className="w-8 h-8" />
-          <ul className="flex items-center gap-3 text-sm text-white">
+          <ul className="flex items-center gap-4 text-base text-white">
             <li><a href="#">Продукты</a></li>
             <li><a href="#">Отзывы</a></li>
             <li><a href="#">O нас</a></li>
           </ul>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-4">
           <LanguageSwitcher />
-          <button className="bg-white text-black text-sm py-1.5 px-4 rounded-lg">
+          <button className="bg-white text-black text-[15px] py-2 px-5 rounded-lg">
             Стать клиентом
           </button>
         </div>

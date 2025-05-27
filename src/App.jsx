@@ -1,7 +1,14 @@
 import React from 'react';
-import Hero from './components/Showcase';
-import Card from './components/Card'; // ✅ katta harf bilan
 import Navbar from './components/Header';
+import Hero from './components/Showcase';
+import Card from './components/Card';
+import CurrencyExchange from './components/CurrencyExchange'; 
+import ConciergeService from './components/ConciergeService'; 
+import Wallet from './components/Wallet';
+import InDevelopment from './components/InDevelopment';
+import SecureFunds from './components/SecureFunds'; 
+import VisionSection from './components/VisionSection';
+import Fotter from './components/Footer'
 
 function App() {
   return (
@@ -9,6 +16,13 @@ function App() {
       <Navbar />
       <Hero />
       <Card />
+      <CurrencyExchange /> 
+      <ConciergeService /> 
+      <Wallet />
+      <InDevelopment />
+      <SecureFunds /> 
+      <VisionSection /> 
+      <Fotter/>
     </div>
   );
 }
